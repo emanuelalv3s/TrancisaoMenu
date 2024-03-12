@@ -58,11 +58,25 @@ body{
     text-transform: uppercase;
     margin-top: 10px;
     cursor: pointer;
+
+}.container button:hover{
+    background-color: #fff;
+    color:  rgb(81, 194, 46);
+    border: 1px solid rgb(81, 194, 46);
+    transition: 350ms linear;
+    
 }
 
 .container button.hidden{
     background-color: transparent;
     border-color: #fff;
+}
+
+.container button.hidden:hover{
+    background-color: #fff;
+    color:  rgb(81, 194, 46);
+    border: 1px solid #fff;
+    transition: 350ms linear;
 }
 
 .container form{
