@@ -9,7 +9,7 @@
 
 body{
     background-color: #c9d6ff;
-    background: linear-gradient(to right, #e2e2e2, #ffc9c9);
+    background: linear-gradient(to right, #e2e2e2, #cbffc9);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,7 +47,7 @@ body{
 }
 
 .container button{
-    background-color: rgb(194, 46, 46);
+    background-color: rgb(81, 194, 46);
     color: #fff;
     font-size: 12px;
     padding: 10px 45px;
@@ -132,6 +132,7 @@ body{
     margin: 20px 0;
 }
 
+
 .social-icons a{
     border: 1px solid #ccc;
     border-radius: 20%;
@@ -141,6 +142,11 @@ body{
     margin: 0 3px;
     width: 40px;
     height: 40px;
+}
+
+.social-icons a:hover{
+    background-color:rgb(81, 194, 46) ;
+    transition: 350ms linear;
 }
 
 
@@ -175,9 +181,9 @@ body{
 }
 
 .toggle{
-    background-color: rgb(194, 46, 46);
+    background-color: rgb(81, 194, 46);
     height: 100%;
-    background: linear-gradient(to right, rgb(202, 78, 78), rgb(194, 46, 46));
+    background: linear-gradient(to right, rgb(74, 138, 54), rgb(81, 194, 46));
     color: #fff;
     position: relative;
     left: -100%;
